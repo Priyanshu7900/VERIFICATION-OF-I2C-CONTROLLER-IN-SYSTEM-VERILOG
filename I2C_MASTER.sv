@@ -370,3 +370,7 @@ end
  
 assign sda = (sda_en == 1) ? (sda_t == 0) ? 1'b0 : 1'b1 : 1'bz; /// en = 1 -> write to slave else read
 ////// if sda_en == 1 then if sda_t == 0 pull line low else release so that pull up make line high
+
+assign scl = scl_t;
+assign dout = rx_data;
+endmodule
