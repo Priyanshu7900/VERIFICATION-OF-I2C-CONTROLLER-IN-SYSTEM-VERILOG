@@ -1,0 +1,102 @@
+[DRV] : RESET DONE
+---------------------------------
+[GEN]: op :0, addr : 4, din : 6
+[DRV] : OP: WR, ADDR:4, DIN : 6
+[MON] op:0, addr: 4, din : 6, dout:0
+[SCO]: DATA STORED -> ADDR : 4 DATA : 6
+-----------------------------------------------
+[GEN]: op :1, addr : 2, din : 4
+[DRV] : OP: RD, ADDR:2, DOUT : 2
+[MON] op:1, addr: 2, din : 0, dout:2
+[SCO] :DATA READ -> Data Matched exp: 2 rec:2
+-----------------------------------------------
+[GEN]: op :1, addr : 4, din : 9
+[DRV] : OP: RD, ADDR:4, DOUT : 6
+[MON] op:1, addr: 4, din : 0, dout:6
+[SCO] :DATA READ -> Data Matched exp: 6 rec:6
+-----------------------------------------------
+[GEN]: op :0, addr : 2, din : 3
+[DRV] : OP: WR, ADDR:2, DIN : 3
+[MON] op:0, addr: 2, din : 3, dout:6
+[SCO]: DATA STORED -> ADDR : 2 DATA : 3
+-----------------------------------------------
+[GEN]: op :0, addr : 3, din : 3
+[DRV] : OP: WR, ADDR:3, DIN : 3
+[MON] op:0, addr: 3, din : 3, dout:6
+[SCO]: DATA STORED -> ADDR : 3 DATA : 3
+-----------------------------------------------
+[GEN]: op :0, addr : 3, din : 7
+[DRV] : OP: WR, ADDR:3, DIN : 7
+[MON] op:0, addr: 3, din : 7, dout:6
+[SCO]: DATA STORED -> ADDR : 3 DATA : 7
+-----------------------------------------------
+[GEN]: op :1, addr : 3, din : 6
+[DRV] : OP: RD, ADDR:3, DOUT : 7
+[MON] op:1, addr: 3, din : 0, dout:7
+[SCO] :DATA READ -> Data Matched exp: 7 rec:7
+-----------------------------------------------
+[GEN]: op :0, addr : 4, din : 2
+[DRV] : OP: WR, ADDR:4, DIN : 2
+[MON] op:0, addr: 4, din : 2, dout:7
+[SCO]: DATA STORED -> ADDR : 4 DATA : 2
+-----------------------------------------------
+[GEN]: op :1, addr : 4, din : 7
+[DRV] : OP: RD, ADDR:4, DOUT : 2
+[MON] op:1, addr: 4, din : 0, dout:2
+[SCO] :DATA READ -> Data Matched exp: 2 rec:2
+-----------------------------------------------
+[GEN]: op :0, addr : 4, din : 4
+[DRV] : OP: WR, ADDR:4, DIN : 4
+[MON] op:0, addr: 4, din : 4, dout:2
+[SCO]: DATA STORED -> ADDR : 4 DATA : 4
+-----------------------------------------------
+[GEN]: op :1, addr : 2, din : 8
+[DRV] : OP: RD, ADDR:2, DOUT : 3
+[MON] op:1, addr: 2, din : 0, dout:3
+[SCO] :DATA READ -> Data Matched exp: 3 rec:3
+-----------------------------------------------
+[GEN]: op :1, addr : 4, din : 7
+[DRV] : OP: RD, ADDR:4, DOUT : 4
+[MON] op:1, addr: 4, din : 0, dout:4
+[SCO] :DATA READ -> Data Matched exp: 4 rec:4
+-----------------------------------------------
+[GEN]: op :0, addr : 2, din : 5
+[DRV] : OP: WR, ADDR:2, DIN : 5
+[MON] op:0, addr: 2, din : 5, dout:4
+[SCO]: DATA STORED -> ADDR : 2 DATA : 5
+-----------------------------------------------
+[GEN]: op :0, addr : 4, din : 6
+[DRV] : OP: WR, ADDR:4, DIN : 6
+[MON] op:0, addr: 4, din : 6, dout:4
+[SCO]: DATA STORED -> ADDR : 4 DATA : 6
+-----------------------------------------------
+[GEN]: op :0, addr : 2, din : 4
+[DRV] : OP: WR, ADDR:2, DIN : 4
+[MON] op:0, addr: 2, din : 4, dout:4
+[SCO]: DATA STORED -> ADDR : 2 DATA : 4
+-----------------------------------------------
+[GEN]: op :1, addr : 3, din : 6
+[DRV] : OP: RD, ADDR:3, DOUT : 7
+[MON] op:1, addr: 3, din : 0, dout:7
+[SCO] :DATA READ -> Data Matched exp: 7 rec:7
+-----------------------------------------------
+[GEN]: op :1, addr : 2, din : 3
+[DRV] : OP: RD, ADDR:2, DOUT : 4
+[MON] op:1, addr: 2, din : 0, dout:4
+[SCO] :DATA READ -> Data Matched exp: 4 rec:4
+-----------------------------------------------
+[GEN]: op :1, addr : 4, din : 8
+[DRV] : OP: RD, ADDR:4, DOUT : 6
+[MON] op:1, addr: 4, din : 0, dout:6
+[SCO] :DATA READ -> Data Matched exp: 6 rec:6
+-----------------------------------------------
+[GEN]: op :1, addr : 3, din : 3
+[DRV] : OP: RD, ADDR:3, DOUT : 7
+[MON] op:1, addr: 3, din : 0, dout:7
+[SCO] :DATA READ -> Data Matched exp: 7 rec:7
+-----------------------------------------------
+[GEN]: op :1, addr : 3, din : 3
+[DRV] : OP: RD, ADDR:3, DOUT : 7
+[MON] op:1, addr: 3, din : 0, dout:7
+[SCO] :DATA READ -> Data Matched exp: 7 rec:7
+-----------------------------------------------
